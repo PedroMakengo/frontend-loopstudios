@@ -70,3 +70,65 @@ main .the-leader-in-interactive .background-leader-in-interactive {
   font-size: 1rem;
   line-height: 1.5rem;
 }
+
+.our-creations .content-our-creations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.our-creations .content-our-creations h1 {
+}
+.our-creations .content-our-creations a {
+  color: #000;
+  border: 1px solid #000;
+  height: 2rem;
+  width: 140px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
+.content-gallary {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+
+  margin-bottom: 6rem;
+}
+
+.content-gallary img {
+  margin-top: 2rem;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+}
+
+footer .content-footer {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+footer .content-footer .logo-footer img {
+  margin-bottom: 2rem;
+}
+
+footer .content-footer .logo-footer nav a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .content-footer .logo-footer nav a + a {
+  margin-left: 2rem;
+}
