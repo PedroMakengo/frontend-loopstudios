@@ -31,8 +31,8 @@ header .card {
 }
 
 header .card h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
+  font-size: 3.7rem;
+  font-weight: 250;
   text-transform: uppercase;
 }
 
@@ -81,6 +81,7 @@ main .the-leader-in-interactive .background-leader-in-interactive {
 }
 
 .our-creations .content-our-creations h1 {
+  font-weight: 100;
 }
 .our-creations .content-our-creations a {
   color: #000;
@@ -131,4 +132,21 @@ footer .content-footer .logo-footer nav a {
 }
 footer .content-footer .logo-footer nav a + a {
   margin-left: 2rem;
+}
+
+footer .icons {
+  width: 100%;
+  margin-bottom: 2rem;
+  float: right;
+  text-align: right;
+}
+
+footer .icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer .icons a + a {
+  margin-left: 0.5rem;
 }

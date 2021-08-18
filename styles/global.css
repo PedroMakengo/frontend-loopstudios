@@ -6,10 +6,16 @@
 
 body {
   background: #fff;
+  font-family: "Alata", sans-serif;
 }
 
 .container {
   max-width: 1120px;
   margin: 0 auto;
   padding: 4rem 0;
+}
+
+h1,
+p {
+  font-family: "Josefin Sans", sans-serif;
 }
