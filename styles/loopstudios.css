@@ -1,0 +1,72 @@
+header {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+header .container {
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+header .container nav a + a {
+  margin-left: 2rem;
+}
+
+header .card {
+  width: 600px;
+  border: 2px solid #fff;
+  padding: 2rem 1.5rem;
+
+  color: #fff;
+}
+
+header .card h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main .the-leader-in-interactive .container {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 4rem;
+}
+
+main .the-leader-in-interactive .background-leader-in-interactive {
+  background-image: url(../images/desktop/image-interactive.jpg);
+  background-size: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 731px;
+  height: 500px;
+}
+
+.card-leader-in-interactive {
+  width: 500px;
+  background: #fff;
+
+  padding: 5rem 0 0 4rem;
+  margin-left: -9rem;
+}
+
+.card-leader-in-interactive h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+
+  margin-bottom: 2rem;
+}
+
+.card-leader-in-interactive p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
